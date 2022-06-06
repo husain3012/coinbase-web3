@@ -12,7 +12,6 @@
     "deploy-contract": "node ethereum/deploy.js"
   },
   "dependencies": {
-    "@truffle/hdwallet-provider": "^2.0.8",
     "dotenv": "^16.0.1",
     "next": "12.1.6",
     "react": "18.1.0",
@@ -27,6 +26,7 @@
     "ganache-cli": "^6.12.2",
     "mocha": "^10.0.0",
     "solc": "^0.8.14-fixed",
+    "@truffle/hdwallet-provider": "^2.0.8",
     "fs-extra": "^10.1.0"
   }
 }

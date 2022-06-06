@@ -32,9 +32,15 @@ export default function Home({ campaigns }) {
             <span className="date">What is coinbase?</span>
           </Card.Meta>
           <Card.Description>
-            <p>Coinbase is a decentralized application that allows users to create and manage campaigns.</p>
-            <p>Want to raise funds for your next project? Create a campaign and get started!</p>
-            <p>Or donate to the projects you want to support!</p>
+            <p>
+              Coinbase is a decentralized application that allows users to create and manage campaigns. <br />
+              Want to raise funds for your next project? Create a campaign and get started!
+              <br />
+              Or donate to the projects you want to support!
+            </p>
+            <p>
+              <strong>You need to have metamask installed use this application!</strong>
+            </p>
           </Card.Description>
         </Card.Content>
       </Card>
